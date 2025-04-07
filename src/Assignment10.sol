@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 contract Assignment10 {
     // Use `constant` for values that will not change
-    constant uint256 public FEE = 100;
+    uint256 constant public FEE = 100;
 
     // Pack variables in optimized order
     uint128 x;
